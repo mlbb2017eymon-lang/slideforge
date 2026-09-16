@@ -689,15 +689,11 @@ Style requirements:
         pptx.title =
           presentation.title;
 
-        pptx.lang =
-          "en-US";
-
         pptx.theme = {
           headFontFace:
             "Aptos Display",
           bodyFontFace:
             "Aptos",
-          lang: "en-US",
         };
 
         presentation.slides.forEach(
@@ -887,9 +883,9 @@ Style requirements:
                 color:
                   "D4D4D8",
                 breakLine: true,
-                paraSpaceAfterPt: 13,
+                paraSpaceAfter: 13,
                 margin: 0,
-                valign: "mid",
+                valign: "middle",
                 fit: "shrink",
               }
             );
@@ -987,7 +983,7 @@ Style requirements:
                   color:
                     "A1A1AA",
                   margin: 0,
-                  valign: "mid",
+                  valign: "middle",
                   fit: "shrink",
                 }
               );
